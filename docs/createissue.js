@@ -1,6 +1,5 @@
 import { Octokit } from "@octokit/rest";
 
-// Create Octokit instance with your GitHub token
 const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN, // or "ghp_xxx"
 });
