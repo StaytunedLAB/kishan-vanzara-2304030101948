@@ -1,4 +1,3 @@
-
 function processBankAccount(accountData) {
   let result = {
     accountNumber: accountData.accountNumber,
